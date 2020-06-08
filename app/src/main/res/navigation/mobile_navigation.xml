@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.veggieyou.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_menu"
+        android:name="com.example.veggieyou.ui.menu.MenuFragment"
+        android:label="@string/menu_categorias"
+        tools:layout="@layout/menu_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_comida_lista"
+        android:name="com.example.veggieyou.ui.ListaComidas.ListaComidasFragment"
+        android:label="@string/menu_comida_lista"
+        tools:layout="@layout/lista_comidas_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_comida_detalhes"
+        android:name="com.example.veggieyou.ui.DetalhesComida.DetalhesComidaFragment"
+        android:label="@string/menu_comida_detalhes"
+        tools:layout="@layout/detalhes_comida_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_definicoes"
+        android:name="com.example.veggieyou.ui.definicoes.DefinicoesFragment"
+        android:label="Definições"
+        tools:layout="@layout/definicoes_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_sign_out"
+        android:name="com.example.veggieyou.ui.signOut.SignOutFragment"
+        android:label="Sign Out"
+        tools:layout="@layout/sign_out_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_carrinho"
+        android:name="com.example.veggieyou.ui.carrinho.CarrinhoFragment"
+        android:label="Carrinho"
+        tools:layout="@layout/carrinho_fragment"/>
+
+</navigation>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "575767890790",
+    "firebase_url": "https://veggieyou-304cd.firebaseio.com",
+    "project_id": "veggieyou-304cd",
+    "storage_bucket": "veggieyou-304cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575767890790:android:bcd15cb3d8b0af05e056a7",
+        "android_client_info": {
+          "package_name": "com.example.veggieyou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575767890790-5la6p38gjk4v9p21imjhqmcfaape6e6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlCDtt3fmEA5frUh-LXAIxstTkdP8Y4DA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575767890790-5la6p38gjk4v9p21imjhqmcfaape6e6j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

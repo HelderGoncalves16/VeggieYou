@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">VeggieYou</string>
+
+    <string name="facebook_app_id">1296407227219016</string>
+    <string name="fb_login_protocol_scheme">fb1296407227219016</string>
+
+    <string name="title_activity_home">VeggieYou</string>
+    <string name="nav_header_title">VeggieYou</string>
+    <string name="nav_header_subtitle">hegs@ipvc.pt</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_sign_out">Sair</string>
+
+    <string name="menu_home">Menu Inicial</string>
+    <string name="menu_comida_lista">Lista de Refeições</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="categorias_populares">Categorias Populares</string>
+    <string name="categorias_promocoes">Promoções</string>
+    <string name="menu_categorias">Categorias</string>
+    <string name="menu_comida_detalhes">Detalhes</string>
+    <string name="tamanho">Tamanho</string>
+    <string name="pedidos_extras">Pedidos Extra</string>
+    <string name="dose">Doses</string>
+</resources>

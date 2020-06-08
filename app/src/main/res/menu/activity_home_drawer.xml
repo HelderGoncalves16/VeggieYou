@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home"
+            android:iconTint="@color/colorPrimary"
+            android:icon="@drawable/ic_home_black_24dp"/>
+        <item
+            android:id="@+id/nav_menu"
+            android:title="@string/menu_categorias"
+            android:icon="@drawable/ic_apps_black_24dp"
+            android:iconTint="@color/colorPrimary"/>
+
+        <item
+            android:id="@+id/nav_carrinho"
+            android:title="Carrinho"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:iconTint="@color/colorPrimary"/>
+    </group>
+
+    <group android:id="@+id/definicoesUtilizador">
+        <item
+            android:id="@+id/nav_definicoes"
+            android:title="Alterar Dados Pessoais"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:iconTint="@color/colorPrimary"
+            />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sign_out"
+            android:title="Sign Out"
+            android:iconTint="@color/colorPrimary"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"/>
+    </group>
+</menu>

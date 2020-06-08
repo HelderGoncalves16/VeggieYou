@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.signOut.SignOutFragment"
+    android:backgroundTint="@color/colorPrimary">
+
+    <Button
+        android:id="@+id/btn_sign_out"
+        android:layout_width="168dp"
+        android:layout_height="77dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="SAIR"
+        android:layout_marginTop="400dp"/>
+
+    <TextView
+        android:id="@+id/nome_dono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HÉLDER PIMENTA GONÇALVES"
+        android:fontFamily="@font/brandon_medium"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="129dp"
+        android:layout_height="126dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="159dp"
+        android:src="@drawable/ipvclogo" />
+
+    <TextView
+        android:id="@+id/nome_instituto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instituto Politécnico de Viana do Castelo"
+        android:fontFamily="@font/brandon_medium"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp"/>
+
+
+</FrameLayout>
